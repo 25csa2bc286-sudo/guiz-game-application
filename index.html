@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Quiz Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="quiz-box">
+
+        <h1>🧠 JavaScript Quiz Game</h1>
+
+        <p class="welcome">
+            Test your JavaScript knowledge!
+        </p>
+    
+        <!-- Question Number -->
+        <h3 id="question-number">
+            Question 1 / 10
+        </h3>
+
+        <!-- Progress Bar -->
+        <div class="progress">
+            <div id="progress-bar"></div>
+        </div>
+
+        <!-- Question -->
+        <h2 id="question"></h2>
+
+        <!-- Options -->
+        <div id="options"></div>
+
+        <!-- Timer -->
+        <p id="timer">
+            ⏳ Time Left : 1:00
+        </p>
+
+        <!-- Result Card -->
+        <div id="result-card">
+
+            <h2>🎉 Quiz Finished!</h2>
+
+            <p id="final-score"></p>
+
+            <p id="percentage"></p>
+
+            <p id="grade"></p>
+
+            <p id="status"></p>
+
+            <p id="best-score"></p>
+
+        </div>
+
+        <!-- Restart Button -->
+        <button id="restart-btn" onclick="restartQuiz()">
+            🔄 Restart Quiz
+        </button>
+
+        <footer>
+            <small>Made by Suhani Kumari ❤️</small>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
